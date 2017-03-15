@@ -33,9 +33,12 @@ main {
     font-size: 3rem;
   }
 
-  nav {
+  nav, #menu-collapse, #menu-button {
     height: 128px;
     line-height: 128px;
+  }
+  #menu-button {
+    font-size: 56px;
   }
   nav ul a {
     font-size: 2rem;
@@ -43,6 +46,7 @@ main {
   nav .brand-logo {
     font-size: 3rem;
   }
+
 }
 
 
