@@ -43,8 +43,15 @@ main {
   nav ul a {
     font-size: 2rem;
   }
-  nav .brand-logo {
-    font-size: 3rem;
+  nav .brand-logo, h3 {
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+  h5 {
+    font-size: 1.4em;
   }
 
 }
