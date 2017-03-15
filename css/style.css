@@ -40,9 +40,6 @@ main {
   #menu-button {
     font-size: 56px;
   }
-  nav ul a {
-    font-size: 2rem;
-  }
   nav .brand-logo, h3 {
     font-size: 4rem;
   }
@@ -69,8 +66,26 @@ main {
 .nav-wrapper {
     padding: 0 10vw;
 }
+nav ul a {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 .userView {
     height: 20vh;
+    max-height: 208px;
+}
+.side-nav {
+  margin-top: 128px;
+  height: 35vh;
+}
+.side-nav li, .side-nav a {
+    height: 72px;
+    line-height: 72px;
+}
+.side-nav a {
+  font-weight: 300;
+  font-size: 3em;
+  padding-left: 40px;
 }
 
 /* =================== */
