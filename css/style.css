@@ -53,6 +53,10 @@ main {
   h5 {
     font-size: 1.2em;
   }
+  .section {
+      padding-top: 128px;
+      padding-bottom: 128px;
+  }
 
 }
 
