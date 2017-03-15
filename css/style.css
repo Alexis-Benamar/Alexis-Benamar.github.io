@@ -1,0 +1,134 @@
+html {
+    min-height:100%;
+}
+
+body {
+    background: url("../img/BUILDING.jpg") no-repeat center center fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+}
+
+main {
+    min-height: 100%;
+    flex: 1 0 auto;
+}
+
+.section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+
+
+
+/* ================================= NAVBAR ================================= */
+
+.nav-wrapper {
+    padding: 0 10vw;
+}
+.userView {
+    height: 20vh;
+}
+
+/* =================== */
+
+
+
+
+
+/* ================================= HEADER ================================= */
+
+.site-header {
+    height: calc(100vh - 64px);
+}
+
+/* HEADLINES */
+#headlines {
+    margin-top: 25vh;
+}
+#headlines h1 {
+    font-weight: 300;
+}
+#headlines h5 {
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* LEARN MORE BUTTON*/
+.learn-more-button {
+    margin-top: 30vh;
+	padding-bottom: 3px;
+}
+.learn-more-button a {
+    text-align: center;
+    color: white;
+}
+.learn-more-button a .material-icons {
+    transition: .2s ease-out;
+}
+.learn-more-button a:hover .material-icons {
+    margin-top: 10px;
+}
+
+/* =================== */
+
+
+
+
+
+/* =============================== ABOUT ME ================================= */
+
+.about-me {
+    margin-top: 5vh;
+}
+.contact-col {
+    border-left: 1px solid #444;
+}
+
+blockquote {
+    border-left: 3px solid #444;
+}
+.tiny-text {
+    font-size: 0.5em;
+    margin-left: 10px;
+}
+
+.subaru-gif {
+    display: block;
+    margin: 3vh auto 2vh auto;
+}
+.subaru-quote {
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+}
+
+hr {
+    width: 25vw;
+    margin: 5vh auto;
+    border-top: 1px solid white;
+}
+
+/* LINKS */
+
+ul#links {
+    display: flex;
+    justify-content: center;
+}
+ul#links > li {
+    padding: 0 20px;
+}
+.link {
+    /*font-size: 2em;*/
+    width: 100%;
+    letter-spacing: 8px;
+    font-weight: 500;
+    font-style: italic;
+}
+.link:hover {
+    text-decoration: underline;
+}
