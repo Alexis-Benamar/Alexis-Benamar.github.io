@@ -21,6 +21,20 @@ main {
     padding-bottom: 64px;
 }
 
+hr {
+    width: 25vw;
+    margin: 3vh auto;
+    /*border-top: 1px solid white;*/
+}
+
+.dark-hr {
+    border-top: 1px solid rgba(0,0,0,0.87);
+}
+
+.white-hr {
+    border-top: 1px solid white;
+}
+
 @media only screen and (min-width: 360px) {
   .flow-text {
     font-size: 1.7rem;
@@ -42,6 +56,10 @@ main {
   }
   nav .brand-logo, h3 {
     font-size: 4rem;
+  }
+
+  hr {
+    width: 35vw;
   }
 
   h1 {
@@ -102,7 +120,6 @@ nav ul a {
 .site-header {
     height: calc(100vh - 64px);
 }
-
 /* HEADLINES */
 #headlines {
     margin-top: 25vh;
@@ -153,6 +170,10 @@ nav ul a {
     border-radius: 128px;
 }
 
+.about-me .header {
+    margin-bottom: 30px;
+}
+
 blockquote {
     border-left: 3px solid #444;
 }
@@ -171,11 +192,7 @@ blockquote {
     text-align: center;
 }
 
-hr {
-    width: 25vw;
-    margin: 5vh auto;
-    border-top: 1px solid white;
-}
+
 
 /* LINKS */
 
