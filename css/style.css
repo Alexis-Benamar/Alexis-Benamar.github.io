@@ -134,7 +134,9 @@ nav ul a {
 /* =================== */
 
 
-
+.class {
+    color: rgb(235, 68, 52);
+}
 
 
 /* =============================== ABOUT ME ================================= */
@@ -142,8 +144,13 @@ nav ul a {
 .about-me {
 
 }
-.contact-col {
-    border-left: 1px solid #444;
+
+.about-me img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 192px;
+    border-radius: 128px;
 }
 
 blockquote {
