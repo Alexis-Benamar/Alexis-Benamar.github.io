@@ -1,8 +1,7 @@
 $(document).ready(function() {
 
     $(".button-collapse").sideNav({
-        closeOnClick: true,
-        draggable: true
+        closeOnClick: true
     });
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
@@ -11,7 +10,7 @@ $(document).ready(function() {
         event.preventDefault();
 
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top - $('#top').height() 
+            scrollTop: $( $.attr(this, 'href') ).offset().top - $('#top').height()
         }, 1000, "easeInOutQuad");
     });
 

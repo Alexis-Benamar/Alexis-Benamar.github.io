@@ -76,7 +76,6 @@ nav ul a {
 }
 .side-nav {
   margin-top: 128px;
-  height: 35vh;
 }
 .side-nav li, .side-nav a {
     height: 72px;
@@ -114,8 +113,8 @@ nav ul a {
 
 /* LEARN MORE BUTTON*/
 .learn-more-button {
-    margin-top: 30vh;
-	padding-bottom: 3px;
+    margin-top: 25vh;
+	  padding-bottom: 3px;
 }
 .learn-more-button a {
     text-align: center;
