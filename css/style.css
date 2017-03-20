@@ -54,6 +54,9 @@ main {
       padding-top: 128px;
       padding-bottom: 128px;
   }
+  .site-header {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
 
 }
 
@@ -75,16 +78,17 @@ nav ul a {
     max-height: 208px;
 }
 .side-nav {
-  margin-top: 128px;
+  width: 40vw;
 }
 .side-nav li, .side-nav a {
-    height: 72px;
-    line-height: 72px;
+    height: 96px;
+    line-height: 96px;
 }
 .side-nav a {
   font-weight: 300;
   font-size: 3em;
   padding-left: 40px;
+  color: white;
 }
 
 /* =================== */
@@ -136,7 +140,7 @@ nav ul a {
 /* =============================== ABOUT ME ================================= */
 
 .about-me {
-    margin-top: 5vh;
+
 }
 .contact-col {
     border-left: 1px solid #444;
