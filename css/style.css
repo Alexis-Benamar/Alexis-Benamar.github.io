@@ -29,6 +29,10 @@ hr {
     /*border-top: 1px solid white;*/
 }
 
+i.material-icons {
+    font-size: 2rem;
+}
+
 .dark-hr {
     border-top: 1px solid rgba(0,0,0,0.87);
 }
@@ -62,6 +66,10 @@ hr {
 
   hr {
     width: 35vw;
+  }
+
+  i.material-icons {
+      font-size: 2.5rem;
   }
 
   h1 {
@@ -219,6 +227,7 @@ blockquote {
 
 .skill-section {
     opacity: 0;
+    margin-top: 20px !important;
     margin-bottom: : 60px;
 }
 
@@ -227,7 +236,13 @@ blockquote {
 }
 
 .skill-section-label {
-    font-weight: 200;
+    font-weight: 100;
+    margin-top: 5vh;
+    margin-bottom: 0;
+}
+u {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.8);
 }
 
 .skill-label {
@@ -241,6 +256,37 @@ blockquote {
   height: 2px;
   width: 0%;
   background-color: white;
+}
+
+#show-more {
+    display: none;
+}
+/* SHOW MORE BUTTON*/
+.show-more-button {
+    margin-bottom: 5vh;
+	  padding-bottom: 3px;
+}
+.show-more-button button {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    box-shadow: none;
+    text-transform: none;
+}
+.show-more-button button:hover {
+    background-color: inherit;
+    transition: none;
+}
+.show-more-button button:focus {
+    background-color: inherit;
+}
+.show-more-button button .material-icons {
+    transition: .2s ease-out;
+}
+.show-more-button button:hover .material-icons {
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 10px;
 }
 
 /* LINKS */

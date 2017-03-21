@@ -18,6 +18,30 @@ $(document).ready(function() {
        console.log('Event Fired');
     });
 
+    var isIconDown = true;
+    $('#show-more-btn').click(function() {
+        $('#show-more').slideToggle(1000, "easeInOutQuad");
+        if(isIconDown){
+            $('#show-more-icon').css({
+                "transition": ".5s ease",
+                "-ms-transform": "rotate(180deg)",
+                "-moz-transform": "rotate(180deg)",
+                "-webkit-transform": "rotate(180deg)",
+                "transform": "rotate(180deg)"
+            })
+            isIconDown = false;
+        } else if (!isIconDown) {
+            $('#show-more-icon').css({
+                "transition": ".5s ease",
+                "-ms-transform": "rotate(0deg)",
+                "-moz-transform": "rotate(0deg)",
+                "-webkit-transform": "rotate(0deg)",
+                "transform": "rotate(0deg)"
+            })
+            isIconDown = true;
+        }
+    })
+
     var options = [
         {
             selector: '#headlines', offset: 200, callback: function() {
