@@ -24,8 +24,8 @@ main {
 
 hr {
     width: 15vw;
-    margin: 3vh auto;
-    margin-top: 6vh;
+    margin: 2vh auto;
+    margin-bottom: 14vh;
     /*border-top: 1px solid white;*/
 }
 
@@ -78,8 +78,11 @@ hr {
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   }
 
+  .skill-label {
+    font-size: 2.5rem !important;
+  }
   .skill-rating {
-    margin-top: 32px !important;
+    margin-top: 30px !important;
   }
 
 }
@@ -220,7 +223,7 @@ blockquote {
 }
 
 .skill-section-container {
-    margin-bottom: 60px;
+    margin-bottom: 0;
 }
 
 .skill-section-label {
@@ -230,10 +233,11 @@ blockquote {
 .skill-label {
   margin: 0;
   padding-right: 20px;
+  font-size: 1.5rem;
 }
 
 .skill-rating {
-  margin-top: 20px;
+  margin-top: 16px;
   height: 2px;
   width: 0%;
   background-color: white;
