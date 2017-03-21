@@ -1,5 +1,7 @@
+
 html {
     min-height:100%;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 body {
@@ -7,6 +9,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-size: cover;
+    font-family: inherit;
 }
 
 main {
@@ -20,8 +23,9 @@ main {
 }
 
 hr {
-    width: 25vw;
+    width: 15vw;
     margin: 3vh auto;
+    margin-top: 6vh;
     /*border-top: 1px solid white;*/
 }
 
@@ -30,7 +34,7 @@ hr {
 }
 
 .white-hr {
-    border-top: 1px solid white;
+    border-top: 1px solid #212121;
 }
 
 @media only screen and (min-width: 360px) {
@@ -83,6 +87,12 @@ hr {
 .hide-text {
   opacity: 0;
   margin-left: 40px;
+}
+
+.header {
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-weight: 300;
 }
 
 
@@ -178,10 +188,6 @@ nav ul a {
     opacity: 0;
 }
 
-.about-me .header {
-    margin-bottom: 30px;
-}
-
 blockquote {
     border-left: 3px solid #444;
 }
@@ -208,13 +214,17 @@ blockquote {
 
 /* ================================= SKILLS ==================================*/
 
-.skills .header {
-    margin-bottom: 30px;
-}
-
 .skill-section {
     opacity: 0;
     margin-bottom: : 60px;
+}
+
+.skill-section-container {
+    margin-bottom: 60px;
+}
+
+.skill-section-label {
+    font-weight: 200;
 }
 
 .skill-label {
