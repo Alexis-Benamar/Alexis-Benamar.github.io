@@ -14,24 +14,24 @@
             <div class="navbar-fixed" id="top">
                 <nav class="grey darken-4">
                     <div class="nav-wrapper">
-                        <a href="#top" class="brand-logo">alexisbenamar.tk</a>
+                        <a href="#top" class="brand-logo menu-link">alexisbenamar.tk</a>
                         <a href="#" data-activates="mobile-demo" class="button-collapse" id="menu-collapse"><i class="material-icons" id="menu-button">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#about-me" id="#about-me-button">About me</a></li>
-                            <li><a href="#skills" id="#skills-button">Skills</a></li>
-                            <li><a href="#contact" id="#contact-button">Contact</a></li>
+                            <li><a class="menu-link" href="#about-me" id="#about-me-button">About me</a></li>
+                            <li><a class="menu-link" href="#skills" id="#skills-button">Skills</a></li>
+                            <li><a class="menu-link" href="#contact" id="#contact-button">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
             <ul class="side-nav grey darken-4 white-text" id="mobile-demo">
                 <div class="container">
-                    <hr>
+                    <hr class="menu-hr">
                 </div>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="menu-link" href="#top">Home</a></li>
+                <li><a class="menu-link" href="#about-me">About me</a></li>
+                <li><a class="menu-link" href="#skills">Skills</a></li>
+                <li><a class="menu-link" href="#contact">Contact</a></li>
                 <div class="container">
                     <hr>
                 </div>
@@ -45,7 +45,7 @@
                         <h1>Hi. I'm Alexis Benamar.</h1>
                         <h5>Developping useless therefore necessary features since 1997.</h3>
                         <div class="learn-more-button center-align">
-                            <a href="#about-me" id="learn-more">
+                            <a class="menu-link" href="#about-me" id="learn-more">
                                 Learn more <br>
                                 <i class="material-icons small">keyboard_arrow_down</i>
                             </a>
@@ -169,7 +169,7 @@
                                 <div class="col s4">
                                     <p class="flow-text skill-label right">Bootstrap</p>
                                 </div>
-                                <div class="col s7">
+                                <div class="col s6">
                                     <div class="skill-rating"></div>
                                 </div>
                             </div>
@@ -271,34 +271,10 @@
 
 
                         <!-- DATABASES -->
-                        <h5 class="center flow-text skill-section-label">- Databases -</h5>
+                        <h5 class=" flow-text skill-section-label"><u>DATABASES</u></h5>
                         <div class="row skill-section-container">
                             <div class="col m12 l6 skill-section" style="margin: 40px 0;">
-                                <!-- Python -->
-                                <div class="row">
-                                    <div class="col s4">
-                                        <p class="flow-text skill-label right">MySQL</p>
-                                    </div>
-                                    <div class="col s6">
-                                        <div class="skill-rating"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="col m12 l6 skill-section hide-on-med-and-down" style="margin: 40px 0;">
-
-                            </div>
-                        </div>
-
-
-
-                        <!-- DATABASES -->
-                        <h5 class="center flow-text skill-section-label">- Databases -</h5>
-                        <div class="row skill-section-container">
-                            <div class="col m12 l6 skill-section" style="margin: 40px 0;">
-                                <!-- Python -->
+                                <!-- MySQL -->
                                 <div class="row">
                                     <div class="col s4">
                                         <p class="flow-text skill-label right">MySQL</p>
@@ -326,21 +302,17 @@
             </div>
 
             <div class="section white contact" id="contact">
-                <img src="img/happy-smol.gif" class="subaru-gif" alt="happy subaru gif">
-                <p class="subaru-quote">May this happy subaru gif enlighten your day</p>
-
-                <div class="row container">
-                    <p class="flow-text center-align">
-                        Here's some useful links in the meantime:
-                    </p>
-                    <div class="col m12 l4">
-                        <a target="_blank" href="http://github.com/Alexis-Benamar" class="flow-text btn-flat center-align link">GITHUB</a>
+                <div class="row container image-links">
+                    <h3 class="header">Some useful links</h3>
+                    <div class="col m12 l6 link-colonne">
+                        <a target="_blank" href="http://github.com/Alexis-Benamar">
+                            <img class="responsive-img link-img" src="img/github-logo.png" alt="github logo">
+                        </a>
                     </div>
-                    <div class="col m12 l4">
-                        <a target="_blank" href="https://soundcloud.com/kmrd-cacti" class="flow-text btn-flat center-align link">SOUNDCLOUD</a>
-                    </div>
-                    <div class="col m12 l4">
-                        <a target="_blank" href="https://www.linkedin.com/in/alexisbenamar" class="flow-text btn-flat center-align link">LINKEDIN</a>
+                    <div class="col m12 l6 link-colonne">
+                        <a target="_blank" href="https://www.linkedin.com/in/alexisbenamar">
+                            <img class="responsive-img link-img" src="img/linkedin-logo.png" alt="linkedin logo">
+                        </a>
                     </div>
                 </div>
             </div>

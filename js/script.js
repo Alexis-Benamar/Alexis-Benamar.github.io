@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
-    $(document).on('click', 'a', function(event){
+    $(document).on('click', '.menu-link', function(event){
         event.preventDefault();
 
         $('html, body').animate({

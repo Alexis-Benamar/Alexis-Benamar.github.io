@@ -33,6 +33,10 @@ i.material-icons {
     font-size: 2rem;
 }
 
+.menu-hr {
+    margin: 2vh auto;
+}
+
 .dark-hr {
     border-top: 1px solid rgba(0,0,0,0.87);
 }
@@ -91,6 +95,10 @@ i.material-icons {
   }
   .skill-rating {
     margin-top: 30px !important;
+  }
+
+  .link-img {
+    max-width: 60% !important;
   }
 
 }
@@ -290,6 +298,22 @@ u {
 }
 
 /* LINKS */
+
+.image-links {
+    margin-top: 10vh;
+}
+
+.link-colonne {
+    margin: 5vh auto;
+}
+
+.link-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+}
+
 
 ul#links {
     display: flex;
