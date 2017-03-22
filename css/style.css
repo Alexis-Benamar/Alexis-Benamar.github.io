@@ -101,6 +101,10 @@ i.material-icons {
     max-width: 60% !important;
   }
 
+  iframe {
+      margin-top: 10vh;
+  }
+
   .footer-text {
     font-size: 2rem !important;
   }
@@ -364,6 +368,10 @@ ul#links > li {
 
 
 /* ============================= CONTACT ==================================== */
+
+.contact-link {
+    margin: 0;
+}
 
 
 
