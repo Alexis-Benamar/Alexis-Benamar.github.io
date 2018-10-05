@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-size: cover;
-    font-family: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
@@ -120,9 +120,11 @@ i.material-icons {
 }
 
 a.text-link {
-    color: #eee;
-    font-style: italic;
+    font-family: 'Consolas';
+    color: rgba(0,0,0,0.75);
+    /* font-style: italic; */
     font-weight: 100;
+    padding-left: 5px;
     padding-bottom: 1px;
     border-bottom: 1px solid transparent;
     transition: border-bottom .5s ease;
@@ -130,13 +132,14 @@ a.text-link {
 
 a.text-link:hover {
     transition: border-bottom .5s ease;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,0.75);
 }
 
 .header {
     margin-bottom: 30px;
     letter-spacing: 5px;
     font-weight: 300;
+    text-align: center;
 }
 
 
@@ -193,7 +196,9 @@ nav ul a {
 }
 #headlines h5 {
     font-weight: 100;
+    font-family: 'Segoe UI Light';
     font-style: italic;
+    letter-spacing: 2px;
 }
 
 /* LEARN MORE BUTTON*/
@@ -222,8 +227,8 @@ nav ul a {
 
 /* =============================== ABOUT ME ================================= */
 
-.about-me {
-
+#about-me-text {
+    text-align: justify;
 }
 
 .about-me img {
@@ -241,16 +246,6 @@ blockquote {
 .tiny-text {
     font-size: 0.5em;
     margin-left: 10px;
-}
-
-.subaru-gif {
-    display: block;
-    margin: 3vh auto 2vh auto;
-}
-.subaru-quote {
-    font-weight: light;
-    font-style: italic;
-    text-align: center;
 }
 
 /* =================== */
@@ -294,7 +289,8 @@ u {
   margin-top: 16px;
   height: 2px;
   width: 0%;
-  background-color: white;
+  background-color: #444;
+
 }
 
 #show-more {
@@ -307,7 +303,7 @@ u {
 }
 .show-more-button button {
     text-align: center;
-    color: white;
+    color: rgba(0,0,0,0.87);
     background-color: transparent;
     box-shadow: none;
     text-transform: none;
@@ -399,6 +395,7 @@ ul#links > li {
 .footer-text {
     font-size: 1.2rem;
     text-align: center;
+    color: white;
 }
 
 /* ============================= */

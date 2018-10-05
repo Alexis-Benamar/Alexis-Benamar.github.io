@@ -22,6 +22,7 @@ $(document).ready(function() {
     $('#show-more-btn').click(function() {
         $('#show-more').slideToggle(1000, "easeInOutQuad");
         if(isIconDown){
+            $('#show-more-btn-text').text('Show less');
             $('#show-more-icon').css({
                 "transition": ".5s ease",
                 "-ms-transform": "rotate(180deg)",
@@ -31,6 +32,7 @@ $(document).ready(function() {
             })
             isIconDown = false;
         } else if (!isIconDown) {
+            $('#show-more-btn-text').text('Show more');
             $('#show-more-icon').css({
                 "transition": ".5s ease",
                 "-ms-transform": "rotate(0deg)",
