@@ -87,10 +87,7 @@ i.material-icons {
       padding-bottom: 64px;
   }
   .site-header {
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: url('img/edgar payne.jpg');
   }
 
   .skill-label {
@@ -181,9 +178,9 @@ nav ul a {
 /* ================================= HEADER ================================= */
 
 .site-header {
-    background: #1A2980;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background: url('../img/edgar payne.jpg') no-repeat;
+    background-size: cover;
 
     height: calc(100vh - 64px);
 }
@@ -215,6 +212,22 @@ nav ul a {
 }
 .learn-more-button a:hover .material-icons {
     margin-top: 10px;
+}
+
+#art-source {
+    position: absolute;
+    bottom: -60px;
+    z-index: 3;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #aaa;
+}
+
+#art-source a {
+    color: #aaa;
+    text-decoration: none;
 }
 
 /* =================== */
@@ -289,7 +302,7 @@ u {
   margin-top: 16px;
   height: 2px;
   width: 0%;
-  background-color: #1a237e;
+  background-color: #444;
 
 }
 
@@ -324,9 +337,6 @@ u {
     margin-top: 10px;
 }
 
-#show-more-icon {
-    color: #1a237e;
-}
 
 /* =============================== */
 

@@ -14,7 +14,7 @@ $(document).ready(function() {
         }, 1000, "easeInOutQuad");
     });
 
-    var isIconDown = true;
+    let isIconDown = true;
     $('#show-more-btn').click(function() {
         $('#show-more').slideToggle(1000, "easeInOutQuad");
         if(isIconDown){
@@ -25,7 +25,7 @@ $(document).ready(function() {
                 "-moz-transform": "rotate(180deg)",
                 "-webkit-transform": "rotate(180deg)",
                 "transform": "rotate(180deg)"
-            })
+            });
             isIconDown = false;
         } else if (!isIconDown) {
             $('#show-more-btn-text').text('Show more');
@@ -35,12 +35,12 @@ $(document).ready(function() {
                 "-moz-transform": "rotate(0deg)",
                 "-webkit-transform": "rotate(0deg)",
                 "transform": "rotate(0deg)"
-            })
+            });
             isIconDown = true;
         }
-    })
+    });
 
-    var options = [
+    let options = [
         {
             selector: '#headlines', offset: 200, callback: function() {
                 $('#headlines').css({
