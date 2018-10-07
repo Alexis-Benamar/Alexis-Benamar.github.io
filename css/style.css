@@ -109,6 +109,10 @@ i.material-icons {
       margin-top: 20px;
   }
 
+  .hide-text {
+      margin-left: 0px !important;
+  }
+
 }
 
 .hide-text {
