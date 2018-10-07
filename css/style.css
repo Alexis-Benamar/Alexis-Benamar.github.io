@@ -234,7 +234,7 @@ nav ul a {
 .about-me img {
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 25.5px;
     width: 192px;
     border-radius: 128px;
     opacity: 0;
@@ -289,7 +289,7 @@ u {
   margin-top: 16px;
   height: 2px;
   width: 0%;
-  background-color: #444;
+  background-color: #1a237e;
 
 }
 
@@ -322,6 +322,10 @@ u {
     background-color: transparent;
     box-shadow: none;
     margin-top: 10px;
+}
+
+#show-more-icon {
+    color: #1a237e;
 }
 
 /* =============================== */

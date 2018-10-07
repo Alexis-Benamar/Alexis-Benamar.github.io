@@ -14,10 +14,6 @@ $(document).ready(function() {
         }, 1000, "easeInOutQuad");
     });
 
-    $("#skills").on( 'scroll', function(){
-       console.log('Event Fired');
-    });
-
     var isIconDown = true;
     $('#show-more-btn').click(function() {
         $('#show-more').slideToggle(1000, "easeInOutQuad");
