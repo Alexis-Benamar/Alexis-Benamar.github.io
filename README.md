@@ -1,6 +1,5 @@
 # alexis-benamar.github.io
 Personnal website. [See for yourself !](https://alexis-benamar.github.io)
-Current state: _In construction_
 
 ---
 
