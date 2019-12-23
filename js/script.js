@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+    setAge();
+    
     $(".button-collapse").sideNav({
         closeOnClick: true
     });
@@ -77,5 +78,10 @@ $(document).ready(function() {
         },
     ];
     Materialize.scrollFire(options);
-
 });
+
+function setAge() {
+    let dob = new Date(1997, 1, 3)
+    let age = new Date(Date.now() - dob.getTime())
+    document.querySelector('.about-me-age').textContent = age.getUTCFullYear() - 1970
+}

@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-size: cover;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
 }
 
 main {
